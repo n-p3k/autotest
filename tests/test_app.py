@@ -3,9 +3,7 @@ Test module for app
 
 Classes: TestApp()
 """
-import sys
-
-sys.path.append("../")
+import test_env
 
 # content of test_class_demo.py
 class TestApp:
