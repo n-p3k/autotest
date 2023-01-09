@@ -23,4 +23,4 @@ class TestApp:
 
     def test_two(self):
         """Test two"""
-        assert test_env.app.app()
+        assert test_env.module_app().app()
