@@ -1,2 +1,2 @@
 # autotest
-test framework
+test framework - tests in root folder
