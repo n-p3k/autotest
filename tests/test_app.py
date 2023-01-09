@@ -3,7 +3,7 @@ Test module for app
 
 Classes: TestApp()
 """
-from autotest.tests import myapp_env
+from autotest.autotest.tests import myapp_env
 from app import app
 
 
