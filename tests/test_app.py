@@ -3,7 +3,7 @@ Test module for app
 
 Classes: TestApp()
 """
-import test_env
+import myapp_env
 from app import app
 
 # content of test_class_demo.py
