@@ -4,7 +4,7 @@ Test module for app
 Classes: TestApp()
 """
 import pytest
-import main
+import app
 
 # content of test_class_demo.py
 class TestApp:
@@ -24,4 +24,4 @@ class TestApp:
 
     def test_two(self):
         """Test two"""
-        assert main.app()
+        assert app.app()
