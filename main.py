@@ -3,8 +3,8 @@ This module handle reduce app
 
 Functions: reduce(alpha, beta)
 """
-from app import app
+from module import app
 
 if __name__=="__main__":
     # main loop
-    app()
+    app.run()
