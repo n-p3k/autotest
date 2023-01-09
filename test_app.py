@@ -13,7 +13,6 @@ class TestApp:
     """
     def test_one(self):
         """Test one"""
-        print(myapp_env.sys)
         assert True
 
     def test_two(self):
