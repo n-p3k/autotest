@@ -8,6 +8,16 @@ import main
 
 # content of test_class_demo.py
 class TestApp:
+    """
+    A class to test the app.
+
+    Methods
+    -------
+    test_one():
+        First test.
+     test_two():
+        Second test.
+    """
     def test_one(self):
         """Test one"""
         assert True
