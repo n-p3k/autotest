@@ -6,7 +6,7 @@ Classes: TestApp()
 from autotest.tests import myapp_env
 from app import app
 
-# content of test_class_demo.py
+
 class TestApp:
     """
     A class to test the app.
