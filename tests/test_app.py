@@ -5,7 +5,6 @@ Classes: TestApp()
 """
 import sys
 sys.path.append("../")
-
 import app
 
 # content of test_class_demo.py
