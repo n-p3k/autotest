@@ -3,7 +3,7 @@ Test module for app
 
 Classes: TestApp()
 """
-import app
+from app import app
 
 # content of test_class_demo.py
 class TestApp:
@@ -23,4 +23,4 @@ class TestApp:
 
     def test_two(self):
         """Test two"""
-        assert app.app()
+        assert app.run()
