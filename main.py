@@ -1,11 +1,12 @@
 
-def reduce(a, b):
+def reduce(variable_alpha, variable_beta):
     """Takes in two numbers, returns their product."""
-    return a + b
+    return variable_alpha + variable_beta
 
 def app():
-    """Main app."""
+    """Run the app."""
     print('hello we reduced to :', reduce(1, 2))
 
 if __name__=="__main__":
+     """Main."""
     app()
