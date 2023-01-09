@@ -3,7 +3,7 @@ Test module for app
 
 Classes: TestApp()
 """
-import myapp_env
+from tests import myapp_env
 from app import app
 
 # content of test_class_demo.py
@@ -20,7 +20,7 @@ class TestApp:
     """
     def test_one(self):
         """Test one"""
-        print(test_env.sys)
+        print(myapp_env.sys)
         assert True
 
     def test_two(self):
