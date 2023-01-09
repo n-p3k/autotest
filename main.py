@@ -10,6 +10,7 @@ def reduce(variable_alpha, variable_beta):
 def app():
     """Run the app."""
     print('hello we reduced to :', reduce(1, 2))
+    return True
 
 if __name__=="__main__":
     # main loop
